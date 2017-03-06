@@ -1,0 +1,19 @@
+Package: seaice
+Type: Package
+Title: Tools for Sea Ice Data
+Version: 0.0.4
+Authors@R: c(
+    person("Michael D.", "Sumner", , "mdsumner@gmail.com", c("aut", "cre"))
+    )
+Depends:
+   R (>= 3.2.2)
+Description: Obtain and work with sea ice concentration data.  
+NeedsCompilation: no
+ByteCompile: yes
+License: GPL-3
+RoxygenNote: 6.0.1
+VignetteBuilder: knitr
+Suggests: testthat
+LazyData: yes
+Imports: 
+    dplyr
